@@ -1,0 +1,36 @@
+.header {
+  background-color: #ff5777;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+}
+.avater {
+  flex: 2;
+  text-align: center;
+}
+.avater image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+}
+.login-info {
+  flex: 4;
+  color: white;
+}
+.login {
+  font-size: 40rpx;
+  padding-bottom: 10rpx;
+}
+.phone image{
+  vertical-align: middle;
+  height: 44rpx;
+  width: 44rpx;
+}
+.arrow {
+  flex: 1;
+}
+.arrow image {
+  height: 70rpx;
+  width: 70rpx;
+}

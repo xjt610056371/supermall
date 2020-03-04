@@ -1,0 +1,15 @@
+<view class="info">
+  <view class="evaluate">
+    <text>用户评价</text>
+    <text>更多>></text>
+  </view>
+  <view class="user">
+    <image src="{{info.user.avatar}}"></image>
+    <text>{{info.user.uname}}</text>
+  </view>
+  <view class="content">{{info.content}}</view>
+  <view class="style">
+    <text>{{info.rateId}}</text>
+    <text class="item">{{info.style}}</text>    
+  </view>
+</view>

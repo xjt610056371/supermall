@@ -1,0 +1,10 @@
+<view class="info">
+  <view wx:for="{{list}}"
+        wx:key="index" 
+        class="item {{index != 0 ? 'left-border' : ''}}">
+      <view>
+        <text class="num">{{item.num}}</text>{{item.unit}}
+      </view>
+      <view>{{item.my}}</view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view>
+  <view class="recommend">商品推荐</view>
+  <my-goods list="{{list}}"/>
+</view>

@@ -1,0 +1,39 @@
+.title {
+  padding: 24rpx;
+  position: relative;
+}
+.desc {
+  margin: 20rpx 0;
+}
+.start-line {
+  width: 180rpx;
+  height: 2rpx;
+  background-color: black;
+} 
+.end-line {
+  width: 180rpx;
+  height: 2rpx;
+  position: absolute;
+  right: 24rpx;
+  background-color: black;
+}
+.start-line::before {
+  content: "";
+  width: 10rpx;
+  height: 10rpx;
+  background-color: black;
+  position: absolute;
+  top: 27rpx;
+}
+.end-line::after {
+  content: "";
+  width: 10rpx;
+  height: 10rpx;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  top: -10rpx;
+}
+.img {
+  width: 100%;
+}

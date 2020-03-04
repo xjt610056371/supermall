@@ -1,0 +1,45 @@
+.bottom-bar {
+  font-size: 26rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+}
+.icon {
+  width: 20%;
+  height: 88rpx;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter {
+  width: 55%;
+  background-color: #eee;
+}
+.payment {
+  width: 25%;
+  height: 88rpx;
+  text-align: center;
+  background-color: #ff5777;
+  color: white
+}
+.img {
+  height: 45rpx;
+  width: 45rpx;
+  border: 5rpx solid #888;
+  border-radius: 50%;
+  position: relative;
+}
+.icon image {
+  height: 45rpx;
+  width: 45rpx;
+  border-radius: 50%;
+  position: absolute;
+}
+.select-all {
+  position: relative;
+  left: -20rpx;
+}
+.confirm {
+  background-color: #ff5777;
+}

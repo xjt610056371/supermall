@@ -1,0 +1,22 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.tab-control {
+  background-color: white;
+  display: flex;
+}
+.tab-item {
+  padding: 25rpx;
+  text-align: center;
+  flex: 1;
+}
+
+.tab-item text {
+  padding: 0 25rpx 5rpx;
+}
+.active {
+  border-bottom: 3px solid #ff5777;
+  color: #ff5777;
+}

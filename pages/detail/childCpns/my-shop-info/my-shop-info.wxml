@@ -1,0 +1,36 @@
+<view class="info">
+  <view class="logo">
+    <image src="{{info.logo}}"></image>
+    <text>{{info.name}}</text>
+  </view>
+  <view class="shop">
+    <view class="left left-item">
+      <view class="sells">
+        <view>{{info.sells}}</view>
+        <view class="item">总销量</view>
+      </view>
+      <view class="goodsCount">
+        <view>{{info.goodsCount}}</view>
+        <view class="item">全部宝贝</view>
+      </view>
+    </view>
+    <view class="right item">
+      <block wx:for="{{info.score}}" wx:key="index">
+        <view class="right-item">
+          <text class="flash">{{item.name}}</text>
+          <text class="{{item.isBetter ? 'better' : 'bad'}}">{{item.score}}</text>
+          <text class="{{item.isBetter ? 'better' : 'bad'}}">{{item.isBetter ? '高' : '低'}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="nav">
+    <button class="to-shop">进店逛逛</button>
+  </view>
+</view>
+<!-- this.logo = shopInfo.shopLogo;
+this.name = shopInfo.name;
+this.fans = shopInfo.cFans;
+this.sells = shopInfo.cSells;
+this.score = shopInfo.score;
+this.goodsCount = shopInfo.cGoods -->

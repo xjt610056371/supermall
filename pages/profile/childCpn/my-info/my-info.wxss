@@ -1,0 +1,16 @@
+.info {
+  display: flex;
+  align-items: center;
+}
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 30rpx 0;
+}
+.left-border {
+  border-left: 4rpx solid #eee;
+}
+.num {
+  font-size: 40rpx;
+  color: #ff5f3e;
+}

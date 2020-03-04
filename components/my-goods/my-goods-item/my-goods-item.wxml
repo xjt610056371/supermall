@@ -1,0 +1,12 @@
+<view class="item" bindtap='itemClick'>
+  <image src="{{info.image || info.img || info.show.img}}" mode="widthFix"></image>
+  <view class="desc-info">
+    <view class="title">{{info.title}}</view>
+    <view class="info">
+      <text class="price">￥:{{info.price}}</text>
+      <image wx:if="{{isActive}}" class="icon" bindtap="handleClick" src="/assets/detail/collect.png"/>
+      <image wx:else bindtap="handleClick" class="icon" src="/assets/common/favor.png"/>
+      <text>{{info.cfav}}</text>
+    </view>
+  </view>
+</view>

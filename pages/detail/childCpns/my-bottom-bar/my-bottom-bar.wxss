@@ -1,0 +1,34 @@
+.bottom-bar {
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  font-size: 30rpx;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+}
+.left {
+  flex: 1;
+}
+.left image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.right {
+  flex: 1;
+  height: 120rpx;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.cart {
+  background-color: yellow;
+  line-height: 120rpx;
+  width: 50%;
+}
+.buy {
+  background-color: #ff5777;
+  color: white;
+  line-height: 120rpx;
+  width: 50%;
+}

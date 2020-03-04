@@ -1,0 +1,20 @@
+.list-view {
+  border-top: 30rpx solid #eee;
+}
+.top-border {
+  border-top: 2rpx solid #eee;
+}
+.item {
+  margin: 0 20rpx;
+  padding: 20rpx 0;
+  vertical-align: middle;
+}
+.item image {
+  width: 46rpx;
+  height: 46rpx;
+  vertical-align: middle;
+}
+.item text {
+  padding-left: 20rpx; 
+  vertical-align: middle;
+}

@@ -1,0 +1,72 @@
+.info {
+  border-top: 6rpx solid #eee;
+  border-bottom: 6rpx solid #eee;
+}
+.logo {
+  vertical-align: middle;
+  padding: 30rpx;
+}
+.logo image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 2rpx solid #eee;
+}
+.logo text {
+  padding-left: 20rpx;
+  position: relative;
+  top: -38rpx;
+}
+.shop {
+  display: flex;
+  align-items: center;
+}
+.left {
+  flex: 1;
+  text-align: center;
+}
+.left-item {
+  display: flex;
+}
+.left-item .item {
+  margin: 20rpx 0;
+}
+.sells {
+  flex: 1;
+}
+.goodsCount {
+  flex: 1;
+}
+.right {
+  flex: 1;
+  border-left: 2rpx solid #eee;
+}
+.right-item {
+  display: flex;
+  text-align: center;
+}
+.right-item text {
+  margin: 6rpx 0;
+}
+.flash {
+  flex: 2;
+}
+.better {
+  flex: 1;
+  color: #ff5777;
+}
+.bad {
+  flex: 1;
+  color: #00ff00;
+}
+.item {
+  font-size: 24rpx;
+}
+.nav {
+  padding: 40rpx 0;
+}
+.to-shop {
+  font-weight: 400;
+  font-size: 28rpx;
+  padding: 10rpx 100rpx;
+}

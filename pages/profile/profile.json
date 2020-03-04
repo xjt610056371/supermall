@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的信息",
+  "usingComponents": {
+    "my-header": "./childCpn/my-header/my-header",
+    "my-info": "./childCpn/my-info/my-info",
+    "my-list-view": "./childCpn/my-list-view/my-list-view"
+  }
+}

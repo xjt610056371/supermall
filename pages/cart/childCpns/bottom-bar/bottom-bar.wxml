@@ -1,0 +1,16 @@
+<view class='bottom-bar'>
+  <view class="icon"
+        bindtap="onCheckClick"
+        data-checkClick="{{info.isSelectAll}}">
+    <view class="img">
+      <image wx:if="{{info.isSelectAll}}"  
+             src="/assets/cart/confirm.png" 
+             class="{{info.isSelectAll ? 'confirm' : ''}}"></image>
+    </view>
+    <view class="select-all">全选</view>
+  </view>
+  <view class='counter'>
+    总计: ¥{{info.totalPrice}}
+  </view>
+  <view class='payment'>去计算({{info.totalCounter}})</view>
+</view>

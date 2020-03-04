@@ -1,0 +1,21 @@
+<view class="sticky">
+
+  <!-- 1.轮播图 -->
+  <my-swiper list="{{bannerList}}"/>
+
+  <!-- 2.推荐模块 -->
+  <my-recommend list="{{recommendList}}"/>
+
+  <!-- 3.本周流行 -->
+  <my-popular/>
+
+  <!-- 4.tab-control -->
+  <my-tab-control list="{{['流行', '新款', '精选']}}" bind:tabClick="tabClick"/>
+
+  <!-- 5.商品展示 -->
+  <my-goods list="{{goods[currenType].list}}"/>
+
+  <!-- 6.回到顶部 -->
+  <my-back-top wx:if="{{isActive}}"/>
+  
+</view>

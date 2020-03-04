@@ -1,0 +1,14 @@
+.list {
+  width: 100%;
+}
+.item {
+  padding: 30rpx 40rpx;
+  font-size: 28rpx;
+  background-color: #eee;
+  text-align: center;
+}
+.active {
+  border-left: 4rpx solid #ff5777;
+  background-color: white;
+  color: #ff5777;
+}

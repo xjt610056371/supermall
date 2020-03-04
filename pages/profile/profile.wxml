@@ -1,0 +1,11 @@
+<!-- 1.头部登录 -->
+<my-header/>
+
+<!-- 2.个人信息 -->
+<my-info list="{{infoList}}"/>
+
+<!-- 3.vip -->
+<my-list-view list="{{orderList}}"/>
+
+<!-- 4.app -->
+<my-list-view list="{{serviceList}}"/>

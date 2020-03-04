@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class='detail'
+             scroll-y>
+  <my-swiper class='d-swiper' list="{{topImages}}"/>
+  <my-base-info info="{{baseInfo}}"/>
+  <my-shop-info info="{{shopInfo}}"/>
+  <my-detail-info info="{{detailInfo}}"/>
+  <my-param-info info="{{paramInfo}}"/>
+  <my-comment-info info="{{commentInfo}}"/>
+  <my-recommend-info list="{{recommends}}"/> 
+</scroll-view>
+<my-bottom-bar bind:addcart="onAddCart"/>

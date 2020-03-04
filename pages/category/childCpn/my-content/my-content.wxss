@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 33.33%;
+  text-align: center;
+}
+.item image {
+  padding: 30rpx 0;
+  width: 130rpx;
+  height: 130rpx;
+}
+.item view {
+  font-size: 26rpx;
+}

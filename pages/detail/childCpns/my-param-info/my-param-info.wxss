@@ -1,0 +1,27 @@
+.param {
+  padding: 28rpx 24rpx;
+  font-size: 28rpx;
+  border-top: 10rpx solid #eee;
+  border-bottom: 10rpx solid #eee;
+
+}
+.item {
+  display: flex;
+  padding: 20rpx 0;
+}
+.top-border {
+  border-top: 2rpx solid #eee;
+}
+.size {
+  flex: 1;
+}
+.key {
+  flex: 1;
+}
+.value {
+  flex: 3;
+  color: #ff5777;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

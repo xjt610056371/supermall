@@ -1,0 +1,15 @@
+<view class="page">
+  <!-- 1.分类菜单 -->
+  <scroll-view class="menu" scroll-y>
+    <my-menu list="{{categories}}" 
+             bind:menuClick="handleMenuClick"/>
+  </scroll-view>
+  
+  <scroll-view class="goods-list" scroll-y>
+    <!-- 2.上面部分 -->
+    <my-content list="{{categoryData[currentIndex].subcategories}}"/>
+
+    <!-- 3.下面部分 -->
+    <my-goods list="{{categoryData[currentIndex].categoryDetail}}"/>
+  </scroll-view> 
+</view>

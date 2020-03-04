@@ -1,0 +1,4 @@
+<scroll-view scroll-y class="cart-list">
+  <cart-list-item list="{{cartList}}" bind:checkClick="checkClick"/>
+</scroll-view>
+<bottom-bar info="{{bottomBar}}" bind:clickSelectAll="clickSelectAll"/>

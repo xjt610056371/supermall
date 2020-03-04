@@ -1,0 +1,32 @@
+.item > image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info {
+  height: 56rpx;
+}
+.title {
+  font-size: 28rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.info {
+  font-size: 28rpx;
+  display: flex;
+  justify-content: center;
+}
+.price {
+  color: #ff5777;
+}
+.icon {
+  position: relative;
+  margin-left: 20rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+.icon > .text {
+  position: absolute;
+  left: 40rpx;
+  top: 0rpx;
+}

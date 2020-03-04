@@ -1,0 +1,50 @@
+.base-info {
+  padding: 20rpx;
+}
+.title {
+  font-size: 30rpx;
+}
+.price {
+  padding: 20rpx 0;
+}
+.newPrice {
+  color: #ff5777;
+}
+.oldPrice {
+  font-size: 24rpx;
+  text-decoration: line-through;
+  margin: 0 20rpx;
+}
+.discount {
+  border-radius: 10rpx;
+  padding: 4rpx 6rpx;
+  background-color: #ff5777;
+  font-size: 24rpx;
+  color: white;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid  rgba(200, 200, 200, .6);
+}
+.columns view {
+  text-align: center;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20rpx;
+  padding: 20rpx 0;
+}
+services-item {
+  text-align: center;
+}
+.services-item image {
+  position: relative;
+  top: 5rpx;
+  right: 4rpx;
+  width: 24rpx;
+  height: 24rpx;
+}

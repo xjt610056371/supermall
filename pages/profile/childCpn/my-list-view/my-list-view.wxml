@@ -1,0 +1,8 @@
+<view class="list-view">
+  <view wx:for="{{list}}" 
+        wx:key="index"
+        class="item {{index != 0 ? 'top-border' : ''}}">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.info}}</text>
+  </view>
+</view>
