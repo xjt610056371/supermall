@@ -1,5 +1,5 @@
 <!-- 1.头部登录 -->
-<my-header/>
+<my-header info="{{userInfo}}" binduserinfo="getUserInfo"/>
 
 <!-- 2.个人信息 -->
 <my-info list="{{infoList}}"/>

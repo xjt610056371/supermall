@@ -8,7 +8,8 @@ Page({
       isSelectAll: true,
       totalPrice: 0,
       totalCounter: 0
-    }
+    },
+    number: 0
   },
   
   onShow() {

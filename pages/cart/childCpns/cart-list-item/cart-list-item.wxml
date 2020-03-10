@@ -1,4 +1,4 @@
-<view class="goods-list">
+<view wx:if="{{list.length}}" class="goods-list">
   <block wx:for="{{list}}" wx:key="index">
     <view class="goods-item">
       <view class="icon {{item.isCheck ? 'confirm' : ''}}" bindtap="onCheckClick" data-index="{{index}}">
@@ -18,3 +18,4 @@
     </view>
   </block>
 </view>
+<view wx:else class="default">购物车为空，赶紧去添加吧!</view>

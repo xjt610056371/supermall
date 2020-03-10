@@ -20,7 +20,12 @@
 }
 .login {
   font-size: 40rpx;
+  background-color: #ff5777;
+  font-weight: 400;
+  color: white;
+  text-align: left;
   padding-bottom: 10rpx;
+  padding-left: 10rpx;
 }
 .phone image{
   vertical-align: middle;

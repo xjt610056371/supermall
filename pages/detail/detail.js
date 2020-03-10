@@ -75,6 +75,7 @@ Page({
       this.setData({
         recommends: res.data.data.list
       })
+      console.log(res.data.data.list)
     })
   },
   onAddCart() {

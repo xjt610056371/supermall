@@ -19,9 +19,16 @@
 .payment {
   width: 25%;
   height: 88rpx;
-  text-align: center;
+}
+.btn {
   background-color: #ff5777;
-  color: white
+  color: white;
+  height: 100%;
+  font-size: 26rpx;
+  font-weight: 400;
+  border-radius: 0;
+  padding:20rpx 0;
+
 }
 .img {
   height: 45rpx;

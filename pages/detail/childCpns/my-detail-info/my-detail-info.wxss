@@ -12,7 +12,7 @@
 } 
 .end-line {
   width: 180rpx;
-  height: 2rpx;
+  height: 4rpx;
   position: absolute;
   right: 24rpx;
   background-color: black;
@@ -32,7 +32,7 @@
   background-color: black;
   position: absolute;
   right: 0;
-  top: -10rpx;
+  top: -6rpx;
 }
 .img {
   width: 100%;

@@ -12,5 +12,7 @@
   <view class='counter'>
     总计: ¥{{info.totalPrice}}
   </view>
-  <view class='payment'>去计算({{info.totalCounter}})</view>
+  <view class='payment'>
+    <button class="btn" type="mini" style="width: 100%">去计算({{info.totalCounter}})</button>
+  </view>
 </view>
